@@ -24,3 +24,33 @@
 .carousel-indicators li{
 background-color: rgba(15, 4, 4, 0.425);
 }
+.catagories h1{
+    color: white;
+
+}
+.catagories img{
+    width: 100px;
+}
+.cat1,.cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.cat1{
+    background-color: orange;
+    
+    
+}
+.cat2{
+    background-color: purple;
+    
+    
+}
+.cat3{
+    background-color: blue;
+    
+   
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
