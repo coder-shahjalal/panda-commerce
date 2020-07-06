@@ -1,56 +1,64 @@
-.container{
-    margin-bottom: 100px;
+.container {
+  margin-bottom: 100px;
 }
-.orange-bg{
-    background-color: #fceae8;
-    border-radius: 10px;
+.orange-bg {
+  background-color: #fceae8;
+  border-radius: 10px;
+}
+.carousel-item {
+  padding: 20px 40px;
+}
 
+.price {
+  color: #ff136f;
 }
-.carousel-item{
-    padding: 20px 40px;
+.buy-now-button {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.carousel-indicators li {
+  background-color: rgba(15, 4, 4, 0.425);
+}
+.catagories h1 {
+  color: white;
+}
+.catagories img {
+  width: 100px;
+}
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+.cat1 {
+  background-color: orange;
+}
+.cat2 {
+  background-color: purple;
+}
+.cat3 {
+  background-color: blue;
+}
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer {
+  background-color: white;
+  border-top: none;
 }
 
-.price{
-    color:  #ff136f;
+#subscribe {
+  height: 300px;
 }
-.buy-now-button{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 9px 25px;
-    cursor: pointer;
+#subscribe h6 {
+  color: lightgray;
 }
-.carousel-indicators li{
-background-color: rgba(15, 4, 4, 0.425);
-}
-.catagories h1{
-    color: white;
-
-}
-.catagories img{
-    width: 100px;
-}
-.cat1,.cat2, .cat3{
-    padding: 10px 30px;
-    border-radius: 8px;
-}
-.cat1{
-    background-color: orange;
-    
-    
-}
-.cat2{
-    background-color: purple;
-    
-    
-}
-.cat3{
-    background-color: blue;
-    
-   
-}
-.card{
-    border: none;
-    box-shadow: 5px 5px 10px lightgray;
+footer {
+  text-align: center;
 }
